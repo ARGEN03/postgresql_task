@@ -135,10 +135,10 @@
 
 ### select round(avg(speechcount)) as round, work.title from character join character_work on character.charid = character_work.charid join work on character_work.workid=work.workid where work.title = 'Romeo and Juliet' group by work.title;
 
-    | round | title |
-
- git remote add origin git@github.com:ARGEN03/postgresql_task.git git remote add origin git@github.com:ARGEN03/postgresql_task.git
-
+    round |      title          
+    -------+------------------      
+    26 | Romeo and Juliet  
+    (1 row) 
 
 ## 8. 
 
